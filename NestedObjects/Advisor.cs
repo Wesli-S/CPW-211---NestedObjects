@@ -25,8 +25,8 @@ namespace NestedObjects
         /// The building/room number where the advisor works on the college campus
         /// </summary>
         public string? OfficeLocation { get; set; }
-
-        public Advisor AssignedAdvisor { get; set; }
+        
+        public Advisor? AssignedAdvisor { get; set; }
 
     }
 }
